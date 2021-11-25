@@ -1,0 +1,29 @@
+{
+  "name": "covid-19",
+  "version": "1.0.0",
+  "description": "JavaScript covid-19 infomration app",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.1.1",
+    "css-loader": "^5.2.4",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "mode": "^0.3.2",
+    "object": "^0.1.1",
+    "prototype": "^0.0.5",
+    "zizi-card": "^1.0.3"
+  }
+}
