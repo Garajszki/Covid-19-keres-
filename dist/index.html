@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="bundle.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h2>Covid-19 Záróvizsga</h1>
+        </div>
+        <div class="search-bar">
+            <div class="form-container">
+                <form id="form" action="">
+                    <select name="" id="select"></select>
+                    <div class="form-item">
+                        <input id="date" required type="date">
+                    </div>
+                    <div class="horizontal-spacer"></div>
+                    <div>
+                        <button type="reset">X</button>
+                        <button id="submit" type="submit">Keresés</button>
+                      
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="loader" id="loading-indicator" style="display: none;"></div>
+            <div id="error-message" class="error-message" style="display: none;">Hiba történt az adatbetöltés közben</div>
+            <div class="covid-container" id="cards-container">
+        <div class="content">  
+        </div>
+    </body>
+</html>
+
